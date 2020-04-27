@@ -1,0 +1,50 @@
+{
+  "authoringRegion": "westus",
+  "hierarchical": true,
+  "useAllTrainingData": false,
+  "dontReviseUtterance": false,
+  "copyLuisData": true,
+  "normalizeDiacritics": true,
+  "services": [
+    {
+      "intentName": "l_Weather",
+      "appId": "8a420188-b900-4603-893b-b80ce7917dd3",
+      "authoringKey": "606f23e8934c4b568062b95885503d29",
+      "version": "0.1",
+      "region": "westus",
+      "type": "luis",
+      "name": "Slime-WeatherApp",
+      "id": "1"
+    },
+    {
+      "intentName": "l_HomeAutomation",
+      "appId": "37b7b128-ef34-4b4b-a1f3-25f6fcca294d",
+      "authoringKey": "606f23e8934c4b568062b95885503d29",
+      "version": "0.1",
+      "region": "westus",
+      "type": "luis",
+      "name": "SlimeApp",
+      "id": "2"
+    },
+    {
+      "intentName": "q_sample-qna",
+      "includePrompts": true,
+      "kbId": "463dcaac-0310-4422-9a85-8a3814ae44a3",
+      "subscriptionKey": "0cb121d6710246d89c332ec5ebb33a55",
+      "type": "qna",
+      "name": "Slime KB",
+      "id": "3"
+    }
+  ],
+  "serviceIds": [
+    "1",
+    "2",
+    "3"
+  ],
+  "appId": "fda4d8d4-4f41-411d-bd6c-b57260929a5e",
+  "authoringKey": "606f23e8934c4b568062b95885503d29",
+  "version": "Dispatch",
+  "region": "westus",
+  "type": "dispatch",
+  "name": "dispatch_bot"
+}
